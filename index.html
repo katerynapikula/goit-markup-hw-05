@@ -472,7 +472,115 @@
             </li>
           </ul>
         </div>
+        <div class="subcribe-form-wrapper">
+          <p class="subcribe-form-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subcribe-form-label" for="subcribe-email"></label>
+            <input
+              class="subcribe-form-input"
+              id="subcribe-email"
+              name="subcribe-email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="subcribe-submit-btn" type="submit">
+              Subscribe
+              <svg class="subcribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn">
+          <svg class="modal-close-btn-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="contact-form">
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-label" for="user-name">Name</label>
+            <div class="contact-form-input-wrapper">
+              <input
+                class="contact-form-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+              <svg class="contact-form-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-label" for="user-tel">Phone</label>
+            <div class="contact-form-input-wrapper">
+              <input
+                class="contact-form-input"
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+              />
+              <svg class="contact-form-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-label" for="user-email">Email</label>
+            <div class="contact-form-input-wrapper">
+              <input
+                class="contact-form-input"
+                id="user-email"
+                name="user-email"
+                type="email"
+              />
+              <svg class="contact-form-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-textarea-wrapper">
+            <label class="contact-form-label" for="user-comment">Comment</label>
+            <textarea
+              class="contact-form-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="contact-form-checkbox-wrapper">
+            <input
+              class="contact-form-checkbox visually-hidden"
+              id="user-privacy-policy"
+              name="user-privacy-policy"
+              type="checkbox"
+              value="true"
+            />
+            <label
+              class="contact-form-checkbox-label"
+              for="user-privacy-policy"
+            >
+              <span class="contact-form-own-checkbox">
+                <svg
+                  class="contact-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use
+                    href="./images/icons.svg#icon-checkbox-vector"
+                  ></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="privacy-policy-style" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="contact-form-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
