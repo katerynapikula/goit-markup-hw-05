@@ -717,16 +717,18 @@ fill: #4D5AE5 ;
     margin-right: 8px;
 }
 
-.contact-form-checkbox:checked  + .contact-form-checkbox-label > .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-label > .contact-form-own-checkbox {
+fill: #F4F4FD;
 background-color: #404BBF;
+border: none;
 }
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label > .contact-form-own-checkbox {
-    outline: 1px solid rgba(46, 47, 66, 0.40);
+outline: 1px solid rgba(46, 47, 66, 0.40);
 }
 
 .contact-form-own-checkbox-icon {
-   fill: #F4F4FD;
+fill: #F4F4FD;
 opacity: 0;
 }
 
