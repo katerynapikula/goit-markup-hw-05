@@ -494,12 +494,9 @@ margin-right: 120px;
     gap: 24px;
 }
 
-.subcribe-form-label {
-    display: flex;
-}
-
 .footer-media {
-    display: block;}
+    display: block;
+margin-right: auto;}
 
 .subcribe-form-text {
     color: #FFF;
@@ -550,7 +547,6 @@ letter-spacing: 0.04em;
     cursor: pointer;
     min-width: 165px;
     height: 40px;
-    gap: 16px;
 }
 .subcribe-btn-icon {
     fill:#FFFFFF;
@@ -695,6 +691,7 @@ fill: #4D5AE5 ;
     color:rgba(46, 47, 66, 0.40);
     font-size: 12px;
     font-weight: 400;
+    display: block;
     line-height: 1.17;
     letter-spacing: 0.04em;
     border-radius: 4px;
@@ -704,6 +701,7 @@ fill: #4D5AE5 ;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: 0px solid transparent;
+    
 }
 
 .contact-form-comment::placeholder {
@@ -741,7 +739,6 @@ outline: 1px solid rgba(46, 47, 66, 0.40);
 
 .contact-form-own-checkbox-icon {
 fill: #F4F4FD;
-opacity: 0;
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label > .contact-form-own-checkbox-icon {
